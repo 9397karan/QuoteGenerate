@@ -25,4 +25,4 @@ A simple web application that generates random quotes, allows users to copy them
 - JavaScript (fetch API, event listeners, HTML2Canvas for image download)
 
 ## Deployment
-You can access the live version of this project here: [Deployment Link](#)
+You can access the live version of this project here: [Live Demo](https://9397karan.github.io/QuoteGenerate/)
