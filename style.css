@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D1F2D;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+.card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #546A7B;
+    color: #E4C3AD;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-top: 20px;
+    color: #FAE1DF;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.btn-download {
+    background-color: #FF9800;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
